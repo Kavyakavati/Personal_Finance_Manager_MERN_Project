@@ -5,32 +5,32 @@ The system ensures secure user authentication and real-time data consistency, en
 ### Project Overview ###
 The Personal Finance Manager project aims to provide a comprehensive platform for users to manage their expenses. Users will be able to:
 
-Create, view, edit, and delete expenses.
-Receive real-time updates on expense changes.
-Access a detailed expense report with categorized insights.
-Ensure secure user authentication and data protection.
-Enable collaborative expense tracking with shared access.
+- Create, view, edit, and delete expenses.
+- Receive real-time updates on expense changes.
+- Access a detailed expense report with categorized insights.
+- Ensure secure user authentication and data protection.
+- Enable collaborative expense tracking with shared access.
 
 ### Technologies Uesd ###
-Frontend (React.js): Develop a responsive user interface for ease of access and navigation.
-Backend (Node.js, Express.js): Handle business logic, API integration, and user authentication.
-Database (MongoDB): Store expense data securely with efficient querying and real-time updates using MongoDB's change streams.
-Real-time Updates: Use WebSocket (or similar) to enable real-time collaboration and updates.
-Authentication: Implement JWT-based authentication to secure user data and sessions.
-Data Analysis: Provide insights through graphical reports and financial summaries.
-Frontend: React.js
-Backend: Node.js, Express.js
-Database: MongoDB
-Authentication: JWT
-Real-time Updates: WebSocket or Socket.IO
-Version Control: Git
-Deployment: Heroku/Vercel
+- Frontend (React.js): Develop a responsive user interface for ease of access and navigation.
+- Backend (Node.js, Express.js): Handle business logic, API integration, and user authentication.
+- Database (MongoDB): Store expense data securely with efficient querying and real-time updates using MongoDB's change streams.
+- Real-time Updates: Use WebSocket (or similar) to enable real-time collaboration and updates.
+- Authentication: Implement JWT-based authentication to secure user data and sessions.
+- Data Analysis: Provide insights through graphical reports and financial summaries.
+1. Frontend: React.js
+2. Backend: Node.js, Express.js
+3. Database: MongoDB
+4. Authentication: JWT
+5. Real-time Updates: WebSocket or Socket.IO
+6. Version Control: Git
+7. Deployment: Heroku/Vercel
 ## Result ##
 Data Model:
-User schema (userID, email, password)
-Expense schema (expenseID, userID, category, amount, date, description)
-Process Flow:
-User Authentication → Expense Creation → Real-time Updates → Report Generation
+- User schema (userID, email, password)
+     Expense schema (expenseID, userID, category, amount, date, description)
+- Process Flow:
+   User Authentication → Expense Creation → Real-time Updates → Report Generation
 Real-time updates across the platform
 Secure handling of financial data
 Enhanced user experience through intuitive UI/UX
